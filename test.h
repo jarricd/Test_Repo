@@ -6,5 +6,8 @@ int foo(int bar)
     return bar;
 }
 
-
+void test(float x)
+{
+    x *= x;
+}
 #endif //H_TEST
